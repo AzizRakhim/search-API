@@ -1,0 +1,24 @@
+.hero__input-holder{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero__input{
+  display: inline-block;
+  padding: 15px;
+  border-radius: 8px;
+
+  &:not(:last-child){
+    margin-right: 50px;
+  }
+}
+
+.hero__list{
+  @include list-style;
+}
+
+.hero__item{
+  padding: 15px;
+}

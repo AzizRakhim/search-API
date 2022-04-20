@@ -25,4 +25,35 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.hero__input-holder {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__input {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.hero__input:not(:last-child) {
+  margin-right: 50px;
+}
+
+.hero__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero__item {
+  padding: 15px;
+}
 /*# sourceMappingURL=main.css.map */
